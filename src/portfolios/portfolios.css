@@ -1,0 +1,159 @@
+.portfolios {
+    width: 100%;
+    height: 100%;
+    -background-color: #FFFFFF;
+}
+
+/*歌曲列表*/
+.List {
+    width: 17.25rem /* 690px */;
+    height: 4.85rem /* 194px */;
+    box-shadow: 0 .125rem /* 5px */ .2rem /* 8px */ #E6E5E3;
+    border-radius: .2rem /* 8px */;
+    display: flex;
+    flex: 1;
+    margin: .75rem /* 30px */;
+    font-size: .75rem /* 30px */;
+    color: #999999;
+    background-color: #FFFFFF;
+    position: relative;
+    line-height: 100%;
+
+}
+
+.wrap_info {
+    width: 14rem;
+    padding-left: .75rem /* 30px */;
+    position: relative;
+
+}
+
+.songNames {
+    color: #1a1a1a;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-top: 1rem /* 40px */;
+}
+
+a {
+    text-decoration: none;
+}
+
+.singer {
+    font-size: .6rem /* 24px */;
+    padding-top: .5rem /* 20px */;
+    color: #999999;
+    background-image: url("./images/singer.png");
+    background-repeat: no-repeat;
+    background-size: .5rem /* 20px */ .5rem /* 20px */;
+    background-position-y: .55rem /* 22px */;
+    padding-left: .75rem /* 30px */;
+}
+
+.time {
+    font-size: .6rem /* 24px */;
+    background-image: url('./images/time.png');
+    background-repeat: no-repeat;
+    background-size: .5rem /* 20px */ .5rem /* 20px */;
+    padding-top: .3rem /* 12px */;
+    color: #999999;
+    padding-left: .75rem /* 30px */;
+    background-position-y: .4rem /* 16px */;
+}
+
+.border {
+    height: 1.85rem /* 74px */;
+    border-left: .15rem /* 6px */ solid #FFD500;
+    position: absolute;
+    left: 0;
+    top: 1.5rem /* 60px */;
+}
+
+/*删除*/
+.delete {
+    width: 1.55rem /* 62px */;
+    height: 1.55rem /* 62px */;
+    position: absolute;
+    top: 1.65rem /* 66px */;
+    right: 1rem /* 40px */;
+    background-image: url("./images/delete1.png");
+    background-repeat: no-repeat;
+    background-size: 1.55rem /* 62px */ 1.55rem /* 62px */;
+}
+
+.text {
+    padding-top: 10rem;
+    text-align: center;
+}
+
+/*没有录音*/
+.noRecording {
+    width: 100%;
+    height: 100%;
+}
+
+.noRecording img {
+    width: 100%;
+    height: 100%;
+}
+
+/*confirm*/
+input[type=button], input[type=submit], input[type=file], button {
+    cursor: pointer;
+    -webkit-appearance: none;
+}
+
+a, a:hover, a:active, a:visited, a:link, a:focus {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+    background: none;
+    text-decoration: none;
+}
+
+.react-confirm-alert {
+    width: 14.25rem /* 570px */;
+    height: 6.5rem /* 260px */;
+    padding: 0;
+    border-radius: .25rem /* 10px */;
+    line-height: 100%;
+}
+
+.react-confirm-alert h1 {
+    font-size: .8rem /* 32px */;
+    color: #333333;
+    padding-top: 1.75rem /* 70px */;
+}
+
+.react-confirm-alert-button-group {
+    height: 2.2rem /* 88px */;
+    border-top: .025rem solid #e6e6e6;
+    margin-top: 1.6rem /* 71px */;
+    justify-content: center !important;
+    display: flex;
+}
+
+.react-confirm-alert-button-group button {
+    flex: 1;
+    background-color: #ffffff;
+    color: #333333;
+    height: 2.125rem /* 85px */;
+    font-size: .75rem /* 30px */;
+    margin-right: 0;
+    border-radius: 0;
+    -webkit-tap-highlight-color: #FFD500;
+}
+
+.react-confirm-alert-button-group button:nth-child(1) {
+    border-right: .025rem solid #e6e6e6;
+    border-radius: inherit;
+}
+
+.react-confirm-alert {
+    text-align: center !important;
+}
+
+.react-confirm-alert-overlay {
+    background: rgba(0, 0, 0, 0.30);
+}

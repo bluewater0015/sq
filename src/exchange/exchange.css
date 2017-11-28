@@ -1,0 +1,84 @@
+.wrap-exchange {
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background: #ffce00;
+    font-family: PingFang-SC-Regular;
+}
+
+.exchange-img {
+    width: 40%;
+    margin-top: 1.65rem;
+}
+
+.wrap-exchange input {
+    border: 1px solid #1e1e1e;
+    height: 2.2rem;
+    line-height: 2.2rem;
+    border-radius: 5px;
+    width: 90%;
+    text-indent: .8rem;
+    font-size: .8rem;
+    background:rgba(255,255,255,0.5);
+}
+
+.exchange-code {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: .9rem;
+}
+
+.wrap-exchange button {
+    margin-top: .85rem;
+    background: #fa4649;
+    color: #fff;
+    width: 90%;
+    height: 2.2rem;
+    border: 1px solid #1e1e1e;
+    border-radius: 5px;
+    font-size: .8rem;
+}
+
+input::placeholder {
+    text-align: center;
+    color: #978404;
+    position: relative;
+    top: -0.01rem;
+}
+
+.exchange-close {
+    position: absolute;
+    width: 16%;
+    height: 3rem;
+    left: 42%;
+    z-index: 99;
+    top: 60%;
+}
+
+.modal-content {
+    font-size: .55rem;
+    margin-top: .3rem;
+}
+.exchange-title{
+    font-size: .8rem;
+    margin-top: 5.3rem;
+}
+.mask{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #1e1e1e;
+    opacity: .6;
+    z-index: 10;
+}
+.exchange-status-img{
+    width:11.75rem;
+    height: 8.25rem;
+    background-size: 100% 100%;
+    z-index:99;
+    position: absolute;
+    left: 20%;
+    top:24%;
+}

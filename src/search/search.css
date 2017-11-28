@@ -1,0 +1,86 @@
+.seachAddress{
+	font-family: 'PingFang-SC-Regular';
+}
+.seach{
+    height:2rem/* 80px */;
+    background-color: #000000;
+    text-align: center;
+    z-index: 999;
+}
+.seach input{
+	width: 12.625rem/* 505px */;
+	height: 1.625rem/* 65px */;
+	font-size: .7rem/* 28px */;
+	color: #666666;
+	background-color: #ffffff;
+	border-radius: .8rem/* 32px */;
+	margin: .175rem/* 7px */ 0 .175rem/* 7px */ 1rem/* 40px */;
+	padding-left: 2.1rem/* 84px */;
+	background-image: url("./images/Magnifying-glass@2x.png");
+    background-repeat: no-repeat;
+    background-size: 1rem/* 40px */;
+    background-position: .625rem/* 25px */ .375rem/* 15px */;
+}
+.seach span{
+	font-size: .75rem/* 30px */;
+	color: #ffffff;
+	padding-left:.5rem/* 20px */;
+}
+.seach img{
+	width: .675rem/* 27px */;
+	height: .675rem/* 27px */;
+	position: absolute;
+	right: 3.5rem/* 140px */;
+	top: .625rem/* 25px */;
+	display: none;
+}
+.addressList li{
+    border-bottom: .025rem solid #e1e2e3;
+    margin: 0 .8rem/* 32px */;
+}
+.content p:nth-child(1){
+	font-size: .8rem/* 32px */;
+	color: #1e1e1e;
+	padding-top: 1rem/* 40px */;
+}
+.content p:nth-child(2){
+	font-size: .7rem/* 28px */;
+	color: #666666;
+	padding-top: .625rem/* 25px */;
+	display: none;
+}
+.content p:nth-child(3){
+	font-size: .65rem/* 26px */;
+	color: #666666;
+	padding-top: .625rem/* 25px */;
+	padding-bottom: 1rem/* 40px */;
+	display: none;
+}
+.btnOrders{
+	margin-top: 1.375rem/* 55px */;
+}
+.btnOrders span:nth-child(1){
+	display: block;
+	width: 3.225rem/* 129px */;
+	height: 1.4rem/* 56px */;
+	text-align: center;
+	font-size: .7rem/* 28px */;
+	color: #1e1e1e;
+	line-height: 1.4rem/* 56px */;
+	border-radius: .8rem/* 32px */;
+	background-color: #ffce00;
+
+}
+.btnOrders span:nth-child(2){
+	font-size: .55rem/* 22px */;
+	color: #666666;
+	padding-top: .6rem/* 24px */;
+	padding-left: .75rem/* 30px */;
+}
+
+
+
+
+
+
+

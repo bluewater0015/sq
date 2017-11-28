@@ -1,0 +1,185 @@
+
+.joinus_container{
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+}
+.wrap-joinus{
+	padding: 0 1.125rem;
+}
+.join_username{
+	width: 100%;
+	border: 1px solid #e1e2e3;
+	margin-top: .8rem;
+	border-radius: 4px;
+	height: 2.25rem;
+	box-sizing: border-box;
+}
+.join_username .mail_star{
+	color: #fff;
+}
+.join_username input{
+	width: 78%;
+	height: 100%;
+	border-radius: 6px;
+	text-indent: 6px;
+	font-size: .6rem;
+}
+.join_username label,.join_textarea label{
+	width: 14%;
+	margin-left: 0.4rem;
+	display: inline-block;
+	text-align: right;
+	font-size: .65rem;
+}
+.city_label{
+	padding-top: 0.7rem;
+}
+.join_textarea label{
+	position: relative;
+	top:-2.6rem;
+	left: -.4rem;
+}
+.join_textarea{
+	width: 100%;
+	height: 5rem;
+	padding-top: 13px;
+	box-sizing: border-box;
+	border: 1px solid #e1e2e3;
+	margin-top: .8rem;
+	border-radius: 4px;
+	box-sizing: border-box;
+	position: relative;
+	padding-bottom: 1rem;
+}
+.join_textarea .mail_star{
+	color: #fff;
+}
+.join_textarea textarea{
+	display: inline-block;
+	width: 82%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	border-radius: 0;
+	border: none;
+	font-size: 0.65rem;
+	color: #000;
+	line-height: 16px;
+	white-space: pre-wrap;
+	z-index: 1001;
+}
+.join_textarea .word_tips{
+	font-size: 0.7rem;
+	color: #848484;
+	position: absolute;
+	bottom: 0.1rem;
+	right: 0.2rem;
+	z-index: 1002;
+}
+.word_tips .word_number {
+	display: inline-block;
+	font-size: 0.7rem;
+}
+.word_tips .word_total {
+	display: inline-block;
+	font-size: 0.7rem;
+}
+.joinus-btn{
+	width: 100%;
+	background: #ffce00;
+	height: 2.25rem;
+	color: #1e1e1e;
+	line-height: 2.25rem;
+	text-align: center;
+	font-size: .8rem;
+	margin-top: 1.575rem;
+}
+.joinus-tel{
+	color: #ccc;
+	font-size: .6rem;
+	margin-top: 1rem;
+}
+.join-title{
+	font-size: .7rem;
+	margin-bottom: 1rem;
+}
+.joinus{
+	height: 2rem;
+	line-height: 2rem;
+	font-size: 1rem;
+	margin: 1.6rem 0 .5rem 0;
+}
+.joinus i{
+	display: inline-block;
+	width: 3rem;
+	height: 1px;
+	background: #e1e2e3;
+	position: relative;
+	top:-.4rem;
+}
+.joinus img{
+	width: .4rem;
+	height: .4rem;
+	position: relative;
+	top:.7rem;
+	margin: 0 .2rem;
+}
+.join-cityname{
+	font-size: .6rem;
+}
+/*模态框*/
+.join-modal{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top:0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0,0,0,0.5);
+}
+.join-modal-content{
+	width: 12.475rem;
+	height: 10.45rem;
+	background: #fff;
+	margin: 50%  auto 0 auto;
+	border-radius: 8px;
+	padding: 12.5px;
+	box-sizing: border-box;
+}
+.join-modal-content p{
+	margin-top: 0.3rem;
+	font-size: 14px;
+	color: #706F6F;
+}
+.join-cancel-img{
+	position: absolute;
+	right: 0;
+	width: 0.75rem !important;
+	height: 0.75rem !important;
+	right: 20%;
+	margin-top: 0 !important;
+}
+.failImg{
+	width: 3.05rem !important;
+	height: 3.05rem !important;
+	margin-top: 0.85rem;
+}
+.join-message-tips{
+	margin-top: 1.15rem;
+}
+.message_font {
+	font-family: PingFangSC-Regular;
+	font-size: 0.9rem;
+	color: #010101;
+}
+.submit_success{
+	margin-top: 1.05rem !important;
+	font-size: 0.9rem;
+	color: #010101;
+}
+
+.join_must{
+	color: red;
+}

@@ -1,0 +1,145 @@
+.receive{
+    width:100%;
+    height: 100vh;
+    background-image: url("./images/vocherbg.png");
+    background-size: 100% 100vh;
+    line-height:100%;
+}
+.receive_prompt{
+    padding-top:10.4rem/* 416px */;
+    font-size: .75rem/* 30px */;
+    color: #333333;
+    padding-bottom: 1.35rem/* 54px */;
+    padding-left: 4.65rem/* 186px */;
+    line-height:100%;
+}
+.receive_prompt p:nth-child(1){
+    font-size: .9rem/* 36px */;
+    font-weight:bold;
+    padding-bottom: .6rem/* 24px */;
+    padding-left: 3.45rem/* 138px */;
+}
+.voucherState{
+    display: flex;
+    margin-top: 1.35rem/* 54px */;
+    line-height:100%;
+    margin-left: .3rem !important;
+}
+.usePackage{
+	font-size: 1.05rem/* 42px */;
+	color: #fa5255;
+	padding-left: 2.25rem/* 90px */;
+	padding-top: .375rem/* 15px */;
+    line-height:100%;
+}
+.goUse{
+    width: 17.55rem/* 650px */;
+    height: 2.2rem/* 88px */;
+    border: .05rem/* 2px */ solid #1a1a1a;
+    text-align: center;
+    line-height: 2.2rem/* 88px */;
+    color: #ffffff;
+    background-color: #fa5255;
+    border-radius: .125rem/* 10px */;
+    font-size: .8rem/* 32px */;
+    margin-left:.5rem;
+}
+.sup{
+    font-size: .65rem/* 26px */;
+    color: #333333;
+    padding-left: 1.5rem/* 60px */;
+    padding-right: 1.5rem/* 60px */;
+    line-height:100%;
+    margin-top: .4rem;
+}
+.sup li:nth-child(1){
+	line-height: .9rem/* 36px */;
+    text-indent: -0.8em;
+    padding-left: 0.8em;
+}
+.li_pdb{
+	padding-bottom: .25rem;
+}
+/*无法领取*/
+.fail{
+    background-color: #ffe433;
+    height: 100vh;
+    width:100%;
+    text-align: center;
+}
+.fail img{
+    width: 8.75rem/* 350px */;
+    height: 7rem/* 280px */;
+    padding-top: 6.25rem/* 250px */;
+}
+.noText{
+    font-size: .8rem/* 32px */;
+    color: #1a1a1a;
+    padding-top: 1.25rem/* 50px */;
+    padding-bottom: .7rem/* 28px */;
+}
+.textItem{
+    font-size: .7rem/* 28px */;
+    color: #625820;
+    padding: 0 2.2rem;
+    line-height: 1rem;
+}
+.received-coupons{
+    width: 16.55rem;
+    /*height: 7.4rem;*/
+    background-image: url("./images/use.png") ;
+    background-size:100% 100%;
+    padding:.8rem .8rem 1rem .8rem;
+    margin-top: .5rem !important;
+}
+.receive-coupons-title{
+    padding-top: 11rem;
+    font-size: .9rem;
+    text-align: center;
+    color: #333333;
+}
+.receive-coupons-title>p:first-child{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.receive-coupons-title>p:last-child{
+    margin-top: .4rem;
+}
+.voucher-type{
+    margin-top: 6% !important;
+    position: relative;
+}
+.coupon-vocher-title{
+    position: absolute;
+    transform: rotate(-50deg) scale(0.75);
+    font-size: .7rem;
+    right: 88%;
+    top: 14.3rem;
+    color: #fff;
+}
+.receive-fail-button{
+    background: #fa5255;
+    color: #fff;
+    width: 17.55rem;
+    height: 1.8rem;
+    line-height: 1.8rem;
+    border: none;
+    border-radius: 5px;
+    margin: 0 auto;
+    font-size: .8rem
+}
+.receive-fail{
+    margin-top: 1rem;
+}
+.vocher-sale{
+    margin-top: 1.6rem !important;
+}
+.vocher-address{
+    padding-left: 8% !important;
+}
+
+
+
+
+
+

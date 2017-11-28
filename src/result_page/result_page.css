@@ -1,0 +1,134 @@
+
+
+.result_page {
+	width: 100%;
+	height: 100vh;
+	padding: 1.075rem 0.75rem 0.7rem 0.75rem;
+	box-sizing: border-box;
+	overflow: auto;
+}
+.result_page img {
+	width: 100%;
+	height: 100%;
+}
+.result_page .sign_box {
+
+}
+.sign_box .sign{
+	//margin-bottom: 0.875rem;
+}
+
+.result_page .randomImg_box{
+
+}
+.randomImg_box .random_img {
+	width: 17.3rem;
+	height: 18.95rem;
+}
+.result_page .press_box{
+	height: 2.625rem;
+}
+.result_page .signMessage_box{
+	width: 100%;
+	//height: 4.075rem;
+}
+.signMessage_box .sign_message {
+	height: 4.075rem;
+	box-sizing: border-box;
+	border: 2px solid #000;
+	background: #ccc;
+	padding: 0.35rem 1.1rem 0.3rem 1.05rem;
+}
+.sign_message .sign_nickname{
+	width: 10.1rem;
+	//width: 54%;
+	//height: 3.175rem;
+}
+.sign_nickname {
+	
+}
+.nickname_content .nickname {
+	line-height: 1.1rem;
+	color: #FE5E18;
+}
+.nickname_content .luck {
+	//color: #000;
+	line-height: 1.1rem;
+}
+.sign_nickname .click_show {
+	color: blue;
+	line-height: 1.2rem;
+}
+.sign_nickname .store_account {
+	color: #FE5E18;
+	//line-height: 1.3rem;
+}
+.sign_message .sign_icon{
+	width: 4.2rem;
+}
+.icon .icon_container {
+	height: 2.2rem;
+	margin-bottom: 0.3rem;
+}
+.icon .icon_box{
+	width: 2.2rem;
+	height: 2.2rem;
+}
+.icon_box img {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	margin-top: 0;
+}
+/*公共样式*/
+.result_page .box_center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.result_page .fx{
+	display: flex;
+}
+.result_page .fx1{
+	flex: 1;
+}
+.result_page .color_red {
+	color: red;
+}
+.result_page .font_size14 {
+	font-size: 0.7rem;
+}
+.result_page .font_size12 {
+	font-size: 0.6rem;
+}
+.result_page .font_size10 {
+	font-size: 0.5rem;
+}
+.result_page .font_size15 {
+	font-size: 0.75rem;
+}
+.result_page .fx_end {
+	display: flex;
+	justify-content: flex-end;
+}
+.result_page .mar_bottom {
+	margin-bottom: 0.5rem;
+}
+.result_page .set_font {
+	font: PingFang SC;
+}
+.result_page .font_color{
+
+}
+.result_page .online {
+	height: 0.8rem;
+	font: PingFang-SC-Bold;
+}
+.result_page .font_weight {
+	font-weight: 900;
+}
+
+
+
+
+

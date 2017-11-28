@@ -1,0 +1,118 @@
+.evaluate{
+    font-size: .7rem;
+    font-family:  PingFangSC-Regular;
+    color: #333;
+}
+.evaluate-head{
+    height: 6.45rem;
+    background: url('./images/evaluate-head.png') no-repeat;
+    padding: .7rem 1.7rem 0 1.7rem;
+    background-size: 100% 100%;
+}
+.evaluate-head>div{
+    border-bottom: 1px solid;
+    border-color:rgba(151,151,151,.3);
+    padding: 0 .3rem 1.15rem .3rem;
+}
+.evaluate-enjoy{
+    font-size: .85rem;
+    text-align: center;
+}
+.evaluate-enjoy-btn{
+    width: 4rem;
+    height: 1.5rem;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+    background: #e9e9e9;
+    line-height: 1.5rem;
+    margin-left: .65rem;
+    font-size: .7rem !important;
+}
+.evaluate-tab {
+    padding: 0 .7rem;
+    margin-top: 1.6rem;
+}
+.evaluate-tab>p{
+    border-top:1px solid;
+    border-color:rgba(151,151,151,.3);
+    padding: 1rem 0 0 0;
+    margin:0 1rem;
+}
+.evaluate-tab-detail{
+    display: flex;
+    display:-webkit-flex;
+    justify-content: flex-start;
+    -webkit-justify-content: flex-start;
+    flex-wrap:wrap;
+    -webkit-flex-wrap: wrap;
+}
+.evaluate-tab-detail>span{
+    padding: .2rem .8rem;
+    background: #e9e9e9;
+    border-radius: 10px;
+    word-wrap: break-word;
+    word-break: normal;
+    margin-top: .4rem;
+    margin-left: 1rem;
+}
+.evaluate-tab textarea{
+    padding: .5rem 0 0 0;
+    background: #e9e9e9;
+    border-radius: 10px;
+    height: 3.9rem;
+    border: none;
+    font-size: .7rem !important;
+    padding: .5rem;
+    line-height: .8rem;
+    width: 15.2rem;
+    white-space: normal;
+}
+.evaluate button{
+    width: 15rem;
+    height: 2.25rem;
+    background: #FFDD33;
+    border-radius: 10px;
+    border: none;
+    font-size: .85rem;
+    margin: 1rem auto 0 auto;
+}
+.evaluate-norepeat{
+    width: 15.65rem;
+    height: 7.45rem;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    margin-top: -3.725rem;
+    margin-left: -7.825rem;
+    background: rgba(0,0,0,.8);
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+.evaluate-norepeat button{
+    background: #ffdd33;
+    width: 6rem;
+    height: 1.65rem;
+    line-height: 1.65rem;
+    margin-top: 2rem;
+    font-size: .85rem;
+}
+.evaluate-norepeat>p{
+    margin-top: 1.65rem;
+    font-size: .75rem;
+}
+.blank-content{
+    margin-top: 6rem;
+    text-align: center;
+}
+.blank-content button{
+    background: #e9e9e9 !important;
+}
+.evaluate-active{
+    background: #ffdd33!important;
+}
+.evaluate-title{
+    margin-bottom: 1rem;
+    font-size: .7rem;
+}

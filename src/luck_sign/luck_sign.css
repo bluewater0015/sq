@@ -1,0 +1,75 @@
+
+.lucksign {
+	width: 100%;
+	height: 100vh;
+	padding: 17px 15px;
+	box-sizing: border-box;
+}
+.lucksign img{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+}
+.lucksign .lucksign_box {
+	width: 100%;
+	height: 100%;
+}
+.lucksign_nickname {
+	padding-top: 16.475rem;
+}
+.lucksign_nickname .nickname_tips{
+	height: 2.55rem;
+}
+.lucksign_box .nickname_box {
+	
+}
+
+.lucksign_box .nickname_content{
+	width: 13rem;
+	height: 2.575rem;
+	border: 2px solid #000;
+	border-radius: 1.2875rem;
+	height: 2.575rem;
+}
+.nickname_content .nicknameImage_box {
+	width: 4.825rem;
+	height: 1.025rem;
+}
+.lucksign_box .confirm_box {
+	//margin-top: 2.55rem;
+}
+.confirm {
+	width: 9.35rem;
+	height: 2.375rem;
+}
+.nickname_content .nickInput {
+	font-size: 1.2rem;
+	width: 8rem;
+	height: 2.575rem;
+	display: inline-block;
+	text-align: center;
+}
+/*公共样式*/
+.lucksign .box_center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.lucksign .color_red {
+	color: red;
+}
+.lucksign .font_size12 {
+	font-size: 0.6rem;
+}
+
+
+
+
+
+
+
+
+
+

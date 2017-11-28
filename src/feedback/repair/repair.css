@@ -1,0 +1,21 @@
+
+.repail{
+    width: 15.025rem/* 601px */;
+    height: 18.125rem/* 725px */;
+    margin: 3.125rem/* 125px */ 0 0 1.65rem/* 66px */;
+    background-image: url('../images/2@2x.png');
+    background-size: 15.025rem/* 601px */ 18.125rem/* 725px */;
+    text-align: center;
+    font-size: .75rem/* 30px */;
+    font-family: 'PingFang-SC-Regular';
+    color: #1e1e1e;
+}
+.repail p:nth-child(1){
+    padding-top: 6rem/* 240px */;
+    padding-bottom: .5rem/* 20px */;
+    font-size: 1.2rem/* 48px */;
+}
+.repail p:nth-child(2){
+    padding-top:1.4rem/* 56px */;
+    padding-bottom:.55rem/* 22px */;
+}

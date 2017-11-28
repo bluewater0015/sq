@@ -1,0 +1,67 @@
+.paySuccess{
+    font-family: PingFang-SC-Regular;
+    background-color: #FFFFFF;
+}
+
+.payImg{
+    width: 18.75rem/* 750px */;
+    height: 10.55rem/* 422px */;
+    background-image: url("./images/pay.png");
+    background-size: 100% 10.55rem/* 422px */;
+    text-align: center;
+     color: #1e1e1e
+}
+.payText{
+    font-size: 1.05rem/* 42px */;
+    padding-top: 5.5rem/* 220px */;
+}
+.payContent{
+	padding-top: 1rem/* 40px */;
+	font-size: .7rem/* 28px */;
+}
+.payTime{
+    font-size: .8rem/* 32px */;
+    color: #1e1e1e;
+    padding-top: .75rem/* 30px */;
+    padding-left: 4.925rem/* 197px */;
+    padding-bottom: .8rem/* 32px */;
+}
+.payTime i{
+	color: #ff7c7c;
+}
+
+.payDetail{
+	font-size: .65rem/* 26px */;
+	color: #1e1e1e;
+	border-top: .025rem solid #e1e2e3;
+	margin-left: .8rem/* 32px */;
+	margin-right: .8rem/* 32px */;
+}
+.slot{
+	padding-top: .8rem/* 32px */;
+	color: #666666
+}
+.songAddress{
+	padding-top: .6rem/* 24px */;
+	padding-bottom: .6rem/* 24px */;
+}
+.songRoom{
+	padding-bottom: 1rem/* 40px */;
+}
+.remakes{
+	font-size: .65rem/* 26px */;
+	color: #1e1e1e;
+	padding-top: .8rem/* 32px */;
+	padding-left: .8rem/* 32px */;
+    background-color: #f5f5f5;
+}
+
+
+
+
+
+
+
+
+
+

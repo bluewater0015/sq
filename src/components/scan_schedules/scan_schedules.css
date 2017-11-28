@@ -1,0 +1,33 @@
+.freeBusy{
+    width:3rem/* 120px */;
+    height:1.15rem/* 46px */;
+    background-size:3rem/* 120px */ 1.15rem/* 46px */;
+    background-repeat: no-repeat;
+    padding-bottom: .75rem !important;
+}
+.busy_height{
+    height: 0 !important;
+    padding-right: 0 !important;
+}
+.date{
+    font-size: .65rem /* 26px */;
+    color: #666666;
+    padding-right: 1rem !important;
+    padding-top:.3rem !important;
+    padding-bottom:0.2rem !important;
+
+}
+.busy{
+    font-size: .7rem/* 28px */ !important;
+    color: #1e1e1e !important;
+    padding-top:.35rem/* 20px */;
+    padding-right: 1rem !important;
+}
+.notTime{
+    width:100%;
+    height:100%;
+}
+.notTime img{
+    width:100%;
+    height:100%;
+}

@@ -1,0 +1,149 @@
+.wrap-coupons{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
+p{
+	line-height: 100%;
+}
+.useTitle{
+    font-size: .65rem/* 26px */;
+    color: #999999;
+    margin-top: 1.25rem/* 50px */;
+    margin-left: 2.6rem/* 104px */;
+}
+.useTitle i{
+	display: inline-block;
+	width: 3.825rem/* 153px */;
+	border-top: .025rem solid #E6E6E6;
+	padding-top: .125rem/* 5px */;
+	margin-right: 1rem/* 40px */;
+}
+.useTitle span{
+	padding-right: 1rem/* 40px */;
+}
+.useMgl{
+	margin-left: 2.275rem/* 91px */;
+}
+
+/*未使用*/
+.notUsed{
+	margin: 1rem/* 40px */ .6rem/* 24px */ 0 .6rem/* 24px */;
+}
+.notUsed li{
+    width: 16.55rem;
+    height: 8.8rem;
+    background-image: url("./images/use.png") ;
+    background-size: 100% 100%;
+    margin-bottom: .5rem/* 20px */;
+    font-size: .7rem/* 28px */;
+    color: #333333;
+    display: flex;	
+    align-items: center;
+    position: relative;
+}
+.pastUsed li{
+    background-image: url("images/useless.png");
+    position: relative;
+}
+.useStatus{
+    border:.025rem solid #cccccc;
+    text-align: center;
+    font-size:.45rem/* 18px */;
+    color: #ADADAD;
+    padding: .05rem/* 2px */ .05rem/* 2px */ 0 .05rem/* 2px */;
+    margin-left: .25rem/* 10px */;
+}
+.notColor{
+    color: #999999;
+}
+.notTime{
+    color: #cccccc !important;
+}
+.coupons-exchange{
+    background: #fa4649;
+    color: #fff;
+    width: 90%;
+    height: 2.2rem;
+    border: 1px solid #1e1e1e;
+    border-radius: 5px;
+    font-size: .8rem;
+    text-align: center;
+    line-height: 2.2rem;
+    margin: 0 auto .8rem auto;
+}
+.coupons-sale{
+    font-size: 2.8rem;
+    color: #fa5255;
+    text-align: center;
+    margin-top: .6rem;
+}
+.couple-sale-free{
+    font-size: 1.2rem;
+    color: #fa5255;
+    margin-top: 1.9rem;
+}
+.sale-name{
+    font-size: 1rem;
+}
+.coupons-type{
+    width: 32%;
+    padding-left: 3%;
+    height: 100%;
+    margin-top: 23%;
+}
+.notUsed li{
+    padding: 0 .6rem;
+}
+.timeAddress{
+    width: 60%;
+    padding-left: 8%;
+    color: #999;
+}
+.timeAddress p{
+    line-height: .8rem;
+    font-size: .6rem;
+}
+.coupons-exchange-title{
+    font-size: .9rem;
+    color: #fa5255;
+    font-weight: bold;
+    /*margin-bottom: .2rem;*/
+}
+.coupons-top{
+    margin-top: .3rem;
+}
+.unused{
+    color: #999;
+}
+.coupon-title{
+    position: absolute;
+    transform: rotate(-50deg) scale(0.8);
+    top:8%;
+    left: 0%;
+    font-size: .6rem;
+    color: #fff;
+}
+.sale-name{
+    background: #ffce00;
+    font-size: .6rem;
+    width: 18%;
+    height: 1rem;
+    line-height: 1rem;
+    text-align: center;
+    display: inline-block;
+    border-radius: 1.2rem;
+}
+.coupons-time{
+    /*line-height: .7rem;*/
+    margin-top: .2rem;
+}
+
+

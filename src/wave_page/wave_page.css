@@ -1,0 +1,35 @@
+
+
+.wavePage {
+	position: fixed;
+	box-sizing: border-box;
+    top: 21.5px;
+    right: 15px;
+    bottom: 14px;
+    left: 14.5px;
+    z-index: 3;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
+/*
+.wavePage {
+	box-sizing: border-box;
+	width: 100%;
+	position: relative;
+}
+*/
+
+.wavePage img{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+.wavePage .wave_sign {
+	position: absolute;
+	top: 40%;
+	left: 30%;
+}
+.wave_sign .wave_img{
+	width: 7.5rem;
+	height: 15rem;
+}
